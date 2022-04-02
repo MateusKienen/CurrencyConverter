@@ -18,6 +18,9 @@ namespace CurrencyConverter.Data
 
             services.AddScoped<IConversionHistoryRepository>(s =>
                 new ConversionHistoryRepository(s.GetRequiredService<CurrencyConverterDbContext>()));
+            
+            services.AddScoped<ICurrencyTypeRepository>(s =>
+                new CurrencyTypeRepository(s.GetRequiredService<CurrencyConverterDbContext>()));
 
             return services;
         }

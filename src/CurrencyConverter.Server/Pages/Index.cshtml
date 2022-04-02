@@ -1,4 +1,5 @@
 ﻿@page
+@using CurrencyConverter.Logic.Services
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -6,5 +7,15 @@
 
 <div class="text-center">
     <h1 class="display-4">Conversor de moedas</h1>
-    
+    <select name="from">
+        @foreach(var type in Model.CurrencyTypes){
+            <option value=@type.Acronym>@type.Acronym - @type.Name</option>
+        }
+    </select>   
+    <select name="to">
+        @foreach(var type in Model.CurrencyTypes){
+            <option value=@type.Acronym>@type.Acronym - @type.Name</option>
+        }
+    </select>   
+ 
 </div>

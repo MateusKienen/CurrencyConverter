@@ -37,6 +37,7 @@ namespace CurrencyConverter
         {
             services.AddLogicServices(this.AppSettings);
 
+
             services.AddRazorPages();
         }
 

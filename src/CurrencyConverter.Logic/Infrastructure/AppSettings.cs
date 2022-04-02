@@ -10,6 +10,6 @@ namespace CurrencyConverter.Logic.Infrastructure
     {
         public ConnectionStrings ConnectionStrings { get; set; }
 
-        public HttpClientSettings CurrencyApiSettings { get; set; }
+        public AwesomeApiSettings AwesomeApiSettings { get; set; }
     }
 }

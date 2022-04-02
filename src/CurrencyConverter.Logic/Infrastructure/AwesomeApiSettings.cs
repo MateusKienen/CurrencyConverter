@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace CurrencyConverter.Logic.Infrastructure
 {
-    public abstract class HttpClientSettings
+    public class AwesomeApiSettings : HttpClientSettings
     {
-        public string ClientName { get; set; }
-
-        public string BaseUrl { get; set; }
     }
 }
