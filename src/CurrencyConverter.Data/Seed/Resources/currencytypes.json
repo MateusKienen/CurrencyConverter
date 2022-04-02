@@ -1,0 +1,782 @@
+[
+  {
+    "Id": 1,
+    "Acronym": "AED",
+    "Name": "Dirham dos Emirados"
+  },
+  {
+    "Id": 2,
+    "Acronym": "AFN",
+    "Name": "Afghani do Afeganistão"
+  },
+  {
+    "Id": 3,
+    "Acronym": "ALL",
+    "Name": "Lek Albanês"
+  },
+  {
+    "Id": 4,
+    "Acronym": "AMD",
+    "Name": "Dram Armênio"
+  },
+  {
+    "Id": 5,
+    "Acronym": "ANG",
+    "Name": "Guilder das Antilhas"
+  },
+  {
+    "Id": 6,
+    "Acronym": "AOA",
+    "Name": "Kwanza Angolano"
+  },
+  {
+    "Id": 7,
+    "Acronym": "ARS",
+    "Name": "Peso Argentino"
+  },
+  {
+    "Id": 8,
+    "Acronym": "AUD",
+    "Name": "Dólar Australiano"
+  },
+  {
+    "Id": 9,
+    "Acronym": "AZN",
+    "Name": "Manat Azeri"
+  },
+  {
+    "Id": 10,
+    "Acronym": "BAM",
+    "Name": "Marco Conversível"
+  },
+  {
+    "Id": 11,
+    "Acronym": "BBD",
+    "Name": "Dólar de Barbados"
+  },
+  {
+    "Id": 12,
+    "Acronym": "BDT",
+    "Name": "Taka de Bangladesh"
+  },
+  {
+    "Id": 13,
+    "Acronym": "BGN",
+    "Name": "Lev Búlgaro"
+  },
+  {
+    "Id": 14,
+    "Acronym": "BHD",
+    "Name": "Dinar do Bahrein"
+  },
+  {
+    "Id": 15,
+    "Acronym": "BIF",
+    "Name": "Franco Burundinense"
+  },
+  {
+    "Id": 16,
+    "Acronym": "BND",
+    "Name": "Dólar de Brunei"
+  },
+  {
+    "Id": 17,
+    "Acronym": "BOB",
+    "Name": "Boliviano"
+  }
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BRL",
+  //  "Name": "Real Brasileiro"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BRLT",
+  //  "Name": "Real Brasileiro Turismo"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BSD",
+  //  "Name": "Dólar das Bahamas"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BTC",
+  //  "Name": "Bitcoin"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BWP",
+  //  "Name": "Pula de Botswana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BYN",
+  //  "Name": "Rublo Bielorrusso"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "BZD",
+  //  "Name": "Dólar de Belize"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CAD",
+  //  "Name": "Dólar Canadense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CHF",
+  //  "Name": "Franco Suíço"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CHFRTS",
+  //  "Name": "Franco Suíço"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CLP",
+  //  "Name": "Peso Chileno"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CNH",
+  //  "Name": "Yuan chinês offshore"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CNY",
+  //  "Name": "Yuan Chinês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "COP",
+  //  "Name": "Peso Colombiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CRC",
+  //  "Name": "Colón Costarriquenho"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CUP",
+  //  "Name": "Peso Cubano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CVE",
+  //  "Name": "Escudo cabo-verdiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "CZK",
+  //  "Name": "Coroa Checa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "DJF",
+  //  "Name": "Franco do Djubouti"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "DKK",
+  //  "Name": "Coroa Dinamarquesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "DOGE",
+  //  "Name": "Dogecoin"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "DOP",
+  //  "Name": "Peso Dominicano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "DZD",
+  //  "Name": "Dinar Argelino"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "EGP",
+  //  "Name": "Libra Egípcia"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ETB",
+  //  "Name": "Birr Etíope"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ETH",
+  //  "Name": "Ethereum"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "EUR",
+  //  "Name": "Euro"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "FJD",
+  //  "Name": "Dólar de Fiji"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GBP",
+  //  "Name": "Libra Esterlina"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GEL",
+  //  "Name": "Lari Georgiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GHS",
+  //  "Name": "Cedi Ganês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GMD",
+  //  "Name": "Dalasi da Gâmbia"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GNF",
+  //  "Name": "Franco de Guiné"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "GTQ",
+  //  "Name": "Quetzal Guatemalteco"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "HKD",
+  //  "Name": "Dólar de Hong Kong"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "HNL",
+  //  "Name": "Lempira Hondurenha"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "HRK",
+  //  "Name": "Kuna Croata"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "HTG",
+  //  "Name": "Gourde Haitiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "HUF",
+  //  "Name": "Florim Húngaro"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "IDR",
+  //  "Name": "Rupia Indonésia"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ILS",
+  //  "Name": "Novo Shekel Israelense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "INR",
+  //  "Name": "Rúpia Indiana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "IQD",
+  //  "Name": "Dinar Iraquiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "IRR",
+  //  "Name": "Rial Iraniano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ISK",
+  //  "Name": "Coroa Islandesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "JMD",
+  //  "Name": "Dólar Jamaicano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "JOD",
+  //  "Name": "Dinar Jordaniano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "JPY",
+  //  "Name": "Iene Japonês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "JPYRTS",
+  //  "Name": "Iene Japonês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KES",
+  //  "Name": "Shilling Queniano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KGS",
+  //  "Name": "Som Quirguistanês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KHR",
+  //  "Name": "Riel Cambojano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KMF",
+  //  "Name": "Franco Comorense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KRW",
+  //  "Name": "Won Sul-Coreano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KWD",
+  //  "Name": "Dinar Kuwaitiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KYD",
+  //  "Name": "Dólar das Ilhas Cayman"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "KZT",
+  //  "Name": "Tengue Cazaquistanês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LAK",
+  //  "Name": "Kip Laosiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LBP",
+  //  "Name": "Libra Libanesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LKR",
+  //  "Name": "Rúpia de Sri Lanka"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LSL",
+  //  "Name": "Loti do Lesoto"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LTC",
+  //  "Name": "Litecoin"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "LYD",
+  //  "Name": "Dinar Líbio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MAD",
+  //  "Name": "Dirham Marroquino"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MDL",
+  //  "Name": "Leu Moldavo"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MGA",
+  //  "Name": "Ariary Madagascarense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MKD",
+  //  "Name": "Denar Macedônio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MMK",
+  //  "Name": "Kyat de Mianmar"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MNT",
+  //  "Name": "Mongolian Tugrik"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MOP",
+  //  "Name": "Pataca de Macau"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MRO",
+  //  "Name": "Ouguiya Mauritana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MUR",
+  //  "Name": "Rúpia Mauriciana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MVR",
+  //  "Name": "Rufiyaa Maldiva"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MWK",
+  //  "Name": "Kwacha Malauiana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MXN",
+  //  "Name": "Peso Mexicano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MYR",
+  //  "Name": "Ringgit Malaio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "MZN",
+  //  "Name": "Metical de Moçambique"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NAD",
+  //  "Name": "Dólar Namíbio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NGN",
+  //  "Name": "Naira Nigeriana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NGNI",
+  //  "Name": "Naira Nigeriana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NGNPARALLEL",
+  //  "Name": "Naira Nigeriana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NIO",
+  //  "Name": "Córdoba Nicaraguense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NOK",
+  //  "Name": "Coroa Norueguesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NPR",
+  //  "Name": "Rúpia Nepalesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "NZD",
+  //  "Name": "Dólar Neozelandês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "OMR",
+  //  "Name": "Rial Omanense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PAB",
+  //  "Name": "Balboa Panamenho"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PEN",
+  //  "Name": "Sol do Peru"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PGK",
+  //  "Name": "Kina Papua-Nova Guiné"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PHP",
+  //  "Name": "Peso Filipino"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PKR",
+  //  "Name": "Rúpia Paquistanesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PLN",
+  //  "Name": "Zlóti Polonês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "PYG",
+  //  "Name": "Guarani Paraguaio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "QAR",
+  //  "Name": "Rial Catarense"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RON",
+  //  "Name": "Leu Romeno"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RSD",
+  //  "Name": "Dinar Sérvio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RUB",
+  //  "Name": "Rublo Russo"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RUBTOD",
+  //  "Name": "Rublo Russo"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RUBTOM",
+  //  "Name": "Rublo Russo"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "RWF",
+  //  "Name": "Franco Ruandês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SAR",
+  //  "Name": "Riyal Saudita"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SCR",
+  //  "Name": "Rúpias de Seicheles"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SDG",
+  //  "Name": "Libra Sudanesa"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SDR",
+  //  "Name": "DSE"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SEK",
+  //  "Name": "Coroa Sueca"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SGD",
+  //  "Name": "Dólar de Cingapura"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SOS",
+  //  "Name": "Shilling Somaliano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "STD",
+  //  "Name": "Dobra São Tomé/Príncipe"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SVC",
+  //  "Name": "Colon de El Salvador"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SYP",
+  //  "Name": "Libra Síria"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "SZL",
+  //  "Name": "Lilangeni Suazilandês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "THB",
+  //  "Name": "Baht Tailandês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TJS",
+  //  "Name": "Somoni do Tajiquistão"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TMT",
+  //  "Name": "TMT"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TND",
+  //  "Name": "Dinar Tunisiano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TRY",
+  //  "Name": "Nova Lira Turca"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TTD",
+  //  "Name": "Dólar de Trinidad"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TWD",
+  //  "Name": "Dólar Taiuanês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "TZS",
+  //  "Name": "Shilling Tanzaniano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "UAH",
+  //  "Name": "Hryvinia Ucraniana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "UGX",
+  //  "Name": "Shilling Ugandês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "USD",
+  //  "Name": "Dólar Americano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "USDT",
+  //  "Name": "Dólar Americano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "UYU",
+  //  "Name": "Peso Uruguaio"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "UZS",
+  //  "Name": "Som Uzbequistanês"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "VEF",
+  //  "Name": "Bolívar Venezuelano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "VND",
+  //  "Name": "Dong Vietnamita"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "VUV",
+  //  "Name": "Vatu de Vanuatu"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XAF",
+  //  "Name": "Franco CFA Central"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XAGG",
+  //  "Name": "XPrata"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XBR",
+  //  "Name": "Brent Spot"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XCD",
+  //  "Name": "Dólar do Caribe Oriental"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XOF",
+  //  "Name": "Franco CFA Ocidental"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XPF",
+  //  "Name": "Franco CFP"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "XRP",
+  //  "Name": "XRP"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "YER",
+  //  "Name": "Riyal Iemenita"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ZAR",
+  //  "Name": "Rand Sul-Africano"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ZMK",
+  //  "Name": "Kwacha Zambiana"
+  //},
+  //{
+  //  "Id": 3,
+  //  "Acronym": "ZWL",
+  //  "Name": "Dólar Zimbabuense"
+  //}
+]
